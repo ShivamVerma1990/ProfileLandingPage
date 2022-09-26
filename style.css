@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Poppins; */
+  font-family: Orbitron, Poppins;
+}
+body {
+  /* height: 100vh; */
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.navbar-container {
+  align-items: center;
+  display: flex;
+
+  justify-content: space-around;
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.list-item {
+  margin: 20px;
+  font-family: Orbitrons, Poppins;
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.button-group {
+  display: flex;
+}
+
+.nav-button {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+
+  padding: 5px 35px;
+}
+
+.hero-container {
+  height: 70vh;
+
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+.square {
+  position: absolute;
+  z-index: -1;
+  top: 390px;
+  left: 180px;
+}
+.hero-container-right {
+  display: flex;
+  text-align: center;
+
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin: 23px; /* margin-top: 23px; */
+  /* padding: 5px; */
+  margin-left: 20px;
+
+}
+.hero-container div > img {
+  position: relative;
+  height: 450px;
+  top: 70px;
+  left: 26px;
+  width: 350px;
+}
+.star {
+  position: absolute;
+  top: 123px;
+  left: 250px;
+}
+.star > img {
+  height: 42px;
+}
+
+.globe {
+  position: absolute;
+  top: 123px;
+  left: 639px;
+}
+.globe > img {
+  height: 53px;
+}
+.hero-heading {
+  font-family: Orbitron, Poppins;
+  font-size: 58px;
+
+  padding: 5px 20px;
+  margin-top: 90px;
+}
+.hero-description {
+  font-size: 10px;
+padding: 0px 50px;
+  
+
+}
+
+.button-email {
+  border: solid 1px black;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-size: 15px;
+
+  font-weight: 500;
+}
+.icons {
+  /* s */
+  margin-top: 12px;
+}
+.icons > span > img {
+  /* margin: 10px; */
+  margin: 10px;
+}
+
+.contact-heading {
+  margin-top: 119px;
+}
+
+.square > img {
+  height: 300px;
+  width: 300px;
+}
+.button-join {
+  border: solid 1px black;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-size: 15px;
+
+  font-weight: 500;
+}
+.hero-container-right button {
+  margin: 5px;
+  margin-top: 50px;
+}
+.navbar-container > div > img {
+  padding: 2px;
+  height: 40px;
+}
+/*
+
+
+
+.square > img {
+  height: 377px;
+  width: 326px;
+} */
+
+/* }
+.star {
+  position: relative;
+  right: 56px;
+} */
+
+/* */
